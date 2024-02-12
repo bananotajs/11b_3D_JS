@@ -6,3 +6,9 @@ Projektā piedālās:
 
 Patriks Morevs
 Artūrs Jurgensons
+
+
+
+
+
+Elīza Brice
