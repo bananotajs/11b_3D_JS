@@ -6,3 +6,10 @@ Projektā piedālās:
 
 Patriks Morevs
 Artūrs Jurgensons
+
+
+
+
+
+
+Loransa Greitāne
