@@ -5,3 +5,4 @@ izmanto tikai HTML, CSS un JS tehnoloģijas
 Projektā piedālās:
 
 Patriks Morevs
+Kristaps Zass
