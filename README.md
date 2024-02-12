@@ -6,3 +6,6 @@ Projektā piedālās:
 
 Patriks Morevs
 Kristaps Zass
+Jānis Ruķers
+Artūrs Jurgensons
+Loransa Greitāne
