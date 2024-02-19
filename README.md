@@ -10,3 +10,5 @@ Jānis Ruķers
 Artūrs Jurgensons
 Loransa Greitāne
 Gustavs Adrians Bērziņš
+Elza Krustiņa
+Anna Šarlote Lauberte
