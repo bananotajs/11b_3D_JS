@@ -12,3 +12,4 @@ Loransa Greitāne
 Gustavs Adrians Bērziņš
 Elza Krustiņa
 Anna Šarlote Lauberte
+Beta Hofmane
