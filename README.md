@@ -17,4 +17,5 @@ Elza Krustiņa
 Angelika Kokenberga
 Anna Šarlote Lauberte
 Beta Hofmane
+Anna Šarlote Lauberte
 Oto Bēcs
