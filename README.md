@@ -11,4 +11,5 @@ Artūrs Jurgensons
 Loransa Greitāne
 Gustavs Adrians Bērziņš
 Elza Krustiņa
+Angelika Kokenberga
 Anna Šarlote Lauberte
