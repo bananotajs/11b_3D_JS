@@ -10,3 +10,4 @@ Jānis Ruķers
 Artūrs Jurgensons
 Loransa Greitāne
 Elza Krustiņa
+Angelika Kokenberga
