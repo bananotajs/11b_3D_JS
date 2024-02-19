@@ -9,3 +9,4 @@ Kristaps Zass
 Jānis Ruķers
 Artūrs Jurgensons
 Loransa Greitāne
+Elza Krustiņa
