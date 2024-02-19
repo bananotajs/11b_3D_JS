@@ -15,5 +15,5 @@ Loransa Greitāne
 Gustavs Adrians Bērziņš :p
 Elza Krustiņa
 Angelika Kokenberga
-Anna Šarlote Lauberte
+Anna Šarlote Lauberte :}
 Beta Hofmane
