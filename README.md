@@ -13,3 +13,4 @@ Gustavs Adrians Bērziņš
 Elza Krustiņa
 Angelika Kokenberga
 Anna Šarlote Lauberte
+Robins Zaščerinskis
