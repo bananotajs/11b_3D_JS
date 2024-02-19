@@ -13,4 +13,4 @@ Gustavs Adrians Bērziņš :p
 Elza Krustiņa
 Angelika Kokenberga
 Anna Šarlote Lauberte
-Beta Hofmane
+Beta Hofmane ._.
