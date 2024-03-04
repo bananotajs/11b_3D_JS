@@ -3,11 +3,14 @@
     height: 800px;
     width: 1200px;
     border: 2px solid #000;
+    perspective: 600px;
 }
 
 #pasaule {
     height: inherit;
     width: inherit;
+    transform-style: preserve-3d;
+    /* transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
 }
 
 #elements {
@@ -15,4 +18,15 @@
     height: 200px;
     width: 200px;
     background: green;
+    opacity: 0.5;
+    transform: translate3d(300px, 100px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+#mala {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: red;
+    opacity: 0.5;
+    transform: translate3d(300px, 100px, -200px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
