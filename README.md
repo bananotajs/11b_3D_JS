@@ -17,3 +17,4 @@ Elza Krustiņa
 Angelika Kokenberga
 Anna Šarlote Lauberte :}
 Beta Hofmane
+Emīls Lazdāns
