@@ -18,3 +18,4 @@ Angelika Kokenberga
 Anna Šarlote Lauberte :}
 Beta Hofmane
 Emīls Lazdāns
+Oto Bēcs
