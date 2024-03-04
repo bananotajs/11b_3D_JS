@@ -3,11 +3,13 @@
     height: 800px;
     width: 1200px;
     border: 2px solid #000;
+    perspective: 600px;
 }
 
 #pasaule {
     height: inherit;
     width: inherit;
+    transform-style: preserve-3d;
 }
 
 #elements {
@@ -15,4 +17,5 @@
     height: 200px;
     width: 200px;
     background: green;
+    transform: translate3d(300px, 100px, 20px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
