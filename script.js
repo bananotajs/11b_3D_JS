@@ -1,16 +1,20 @@
 var container = document.getElementById("container");
 var pasaule = document.getElementById("pasaule");
 
-
-
 veidotPasauli();
 
 function attelotPasauli(pawn){
     dz = uzPrieksu - uzAtpakal;
     dx = paKreisi - paLabi;
 
+    dry = mouseX;
+
+    mouseX = 0;
+
     pawn.z += dz;
     pawn.x += dx;
+
+    pawn.ry += dry;
 
     pasaule.style.transform = `
         translate3d(
