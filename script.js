@@ -1,13 +1,16 @@
 var container = document.getElementById("container");
 var pasaule = document.getElementById("pasaule");
 
-var z = 0;
+
 
 veidotPasauli();
 
 function attelotPasauli(){
-    pasaule.style.transform = `translate3d(0px, 0px, ${z}px)`;
-    z++;
+    dz = uzPrieksu - uzAtpakal;
+
+    pawn.z += dz;
+
+    pasaule.style.transform = `translate3d(${pawn.x}px, ${pawn.y}px, ${pawn.z}px)`;
 }
 
 let spele = setInterval(attelotPasauli, 10);
