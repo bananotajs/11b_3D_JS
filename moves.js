@@ -6,6 +6,9 @@ var paKreisi = 0;
 
 document.addEventListener("keydown", (event) => {this.move(event, speed)});
 document.addEventListener("keyup", (event) => {this.move(event, 0)});
+document.addEventListener("mousemove", (event) => {
+    console.log(event.movementX);
+});
 
 function move(ev, atrums){
     if(ev.keyCode == 87){
