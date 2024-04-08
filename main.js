@@ -9,4 +9,6 @@ function include(file) {
 
 include("maps/map.js");
 include("mapGenerator.js");
+include("player.js");
+include("moves.js");
 include("script.js");
