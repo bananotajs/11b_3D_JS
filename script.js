@@ -2,6 +2,17 @@ var container = document.getElementById("container");
 var pasaule = document.getElementById("pasaule");
 
 const deg = Math.PI / 180;
+var lock = false;
+
+document.addEventListener("pointerlockchange", (event) => {
+    lock = !lock;
+});
+
+container.onclick = function(){
+    if(!lock){
+        container.requestPointerLock();
+    }
+}
 
 veidotPasauli();
 
@@ -20,8 +31,10 @@ function attelotPasauli(pawn){
     pawn.z += dz;
     pawn.x += dx;
 
-    pawn.rx += drx;
-    pawn.ry += dry;
+    if(lock){
+        pawn.rx += drx;
+        pawn.ry += dry;
+    }
 
     pasaule.style.transform = `
     translateZ(600px)
