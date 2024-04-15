@@ -1,14 +1,19 @@
 var container = document.getElementById("container");
 var pasaule = document.getElementById("pasaule");
 
+const deg = Math.PI / 180;
+
 veidotPasauli();
 
 function attelotPasauli(pawn){
-    dxx = paKreisi - paLabi;
-    dzz = uzPrieksu - uzAtpakal;
+    xx = paLabi - paKreisi; 
+    zz = uzPrieksu - uzAtpakal;
 
-    dx = paLabi - paKreisi; 
-    dz = -(uzPrieksu - uzAtpakal);
+    dx = xx * Math.cos(pawn.ry*deg) - zz * Math.sin(pawn.ry*deg);
+    dz = -xx * Math.sin(pawn.ry*deg) - zz * Math.cos(pawn.ry*deg);
+
+    // dx = paLabi - paKreisi; 
+    // dz = -(uzPrieksu - uzAtpakal);
 
     dry = - mouseX;
 
