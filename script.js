@@ -2,6 +2,17 @@ var container = document.getElementById("container");
 var pasaule = document.getElementById("pasaule");
 
 const deg = Math.PI / 180;
+var lock = false;
+
+document.addEventListener("pointerlockchange", (event) => {
+    lock = !lock;
+});
+
+container.onclick = function(){
+    if(!lock){
+        container.requestPointerLock();
+    }
+}
 
 veidotPasauli();
 
@@ -11,17 +22,30 @@ function attelotPasauli(pawn){
 
     dx = xx * Math.cos(pawn.ry*deg) - zz * Math.sin(pawn.ry*deg);
     dz = -xx * Math.sin(pawn.ry*deg) - zz * Math.cos(pawn.ry*deg);
+    
 
     drx = mouseY;
     dry = - mouseX;
+
+    
 
     mouseX = mouseY = 0;
 
     pawn.z += dz;
     pawn.x += dx;
 
-    pawn.rx += drx;
-    pawn.ry += dry;
+    if(lock){
+        pawn.rx += drx;
+        pawn.ry += dry;
+    }
+
+    if(pawn.rx > 60){
+        pawn.rx = 60
+    }
+    if(pawn.rx < -60){
+        pawn.rx = -60
+    }
+    console.log(pawn.rx);
 
     pasaule.style.transform = `
     translateZ(600px)
