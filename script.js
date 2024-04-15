@@ -12,16 +12,15 @@ function attelotPasauli(pawn){
     dx = xx * Math.cos(pawn.ry*deg) - zz * Math.sin(pawn.ry*deg);
     dz = -xx * Math.sin(pawn.ry*deg) - zz * Math.cos(pawn.ry*deg);
 
-    // dx = paLabi - paKreisi; 
-    // dz = -(uzPrieksu - uzAtpakal);
-
+    drx = mouseY;
     dry = - mouseX;
 
-    mouseX = 0;
+    mouseX = mouseY = 0;
 
     pawn.z += dz;
     pawn.x += dx;
 
+    pawn.rx += drx;
     pawn.ry += dry;
 
     pasaule.style.transform = `

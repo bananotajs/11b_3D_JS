@@ -9,6 +9,7 @@ document.addEventListener("keydown", (event) => {this.move(event, speed)});
 document.addEventListener("keyup", (event) => {this.move(event, 0)});
 document.addEventListener("mousemove", (event) => {
     mouseX = event.movementX;
+    mouseY = event.movementY;
 });
 
 function move(ev, atrums){
