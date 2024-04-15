@@ -22,9 +22,12 @@ function attelotPasauli(pawn){
 
     dx = xx * Math.cos(pawn.ry*deg) - zz * Math.sin(pawn.ry*deg);
     dz = -xx * Math.sin(pawn.ry*deg) - zz * Math.cos(pawn.ry*deg);
+    
 
     drx = mouseY;
     dry = - mouseX;
+
+    
 
     mouseX = mouseY = 0;
 
@@ -35,6 +38,14 @@ function attelotPasauli(pawn){
         pawn.rx += drx;
         pawn.ry += dry;
     }
+
+    if(pawn.rx > 60){
+        pawn.rx = 60
+    }
+    if(pawn.rx < -60){
+        pawn.rx = -60
+    }
+    console.log(pawn.rx);
 
     pasaule.style.transform = `
     translateZ(600px)
